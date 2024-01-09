@@ -1,0 +1,61 @@
+body{
+   background-color: rgb(211, 211, 211); 
+   border:100px;
+   margin: 0;
+   
+
+}
+ .site-header {
+    margin-bottom: 25px;
+    padding: 10px;
+ } 
+.site-header h1{
+   text-align:center;
+   font-family: Arial, Helvetica, sans-serif;
+   color: green;
+   text-shadow: 2px 0 #ffd503, -2px 0 #ffea03, 0 2px #ffea03, 0 -2px#ffea03,
+   1px 1px #ffea03, -1px -1px #ffea03, 1px -1px#ffea03, -1px 1px#ffea03;
+   margin: 0;
+}
+.site-header span {
+    border:5px solid rgb(199, 73, 73);
+    padding: 15px;
+    text-decoration: underline;  
+    display: inline-block;  
+}
+h3{
+    background-color: gray;
+    margin: 10px;
+    padding-left: 65px;
+}
+
+section {
+    padding: 10px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.intro {
+    background: url('ghana-beach-boats.avif');
+    padding: 100px 20px 60px 20px;
+    position: relative;
+}
+.intro p {
+    position: relative;
+    z-index: 2;
+    background-color: rgba(255,255,255,0.5);
+    padding: 25px;
+    width: 75%;  
+}
+
+/* .intro::before {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255,255,255,0.3);
+    left: 0;
+    top:0;
+    z-index:1;
+} */
