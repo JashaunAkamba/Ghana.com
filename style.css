@@ -1,127 +1,230 @@
 @import 'nav.css';
 
-body{
-   background-color: rgb(211, 211, 211); 
-   border:100px;
-   margin: 0;
-   
+body {
+  background-color: rgb(211, 211, 211);
+  border: 100px;
+  margin: 0;
+
 
 }
- .site-header {
-    margin-bottom: 25px;
-    padding: 10px;
- } 
-.site-header h1{
-   text-align:center;
-   font-family: Arial, Helvetica, sans-serif;
-   color: green;
-   text-shadow: 2px 0 #ffd503, -2px 0 #ffea03, 0 2px #ffea03, 0 -2px#ffea03,
-   1px 1px red, -1px -1px red, 1px -1px red, -1px 1px red;
-   margin: 0;
+
+.site-header {
+  margin-bottom: 25px;
+  padding: 10px;
 }
+
+.site-header h1 {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  color: green;
+  text-shadow: 2px 0 #ffd503, -2px 0 #ffea03, 0 2px #ffea03, 0 -2px#ffea03,
+    1px 1px red, -1px -1px red, 1px -1px red, -1px 1px red;
+  margin: 0;
+}
+
 .site-header span {
-    border:5px solid rgb(199, 73, 73);
-    padding: 15px;
-    text-decoration: underline;  
-    display: inline-block;  
+  border: 5px solid rgb(199, 73, 73);
+  padding: 15px;
+  text-decoration: underline;
+  display: inline-block;
 }
-h3{
-    background-color: gray;
-    margin: 10px;
-    padding-left: 65px;
+
+h3 {
+  background-color: gray;
+  margin: 10px;
+  padding-left: 65px;
 }
 
 section {
-    padding: 10px;
-    max-width: 800px;
-    margin-left: auto;
-    margin-right: auto;
+  padding: 10px;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .intro {
-    background: url('ghana-beach-boats.avif');
-    padding: 100px 20px 60px 20px;
-    position: relative;
-}
-.intro p {
-    position: relative;
-    z-index: 2;
-    background-color: rgba(255,255,255,0.5);
-    padding: 25px;
-    width: 75%;  
+  background: url('ghana-beach-boats.avif');
+  padding: 100px 20px 60px 20px;
+  position: relative;
 }
 
- .intro::before {
-    position: absolute;
-    content: '';
-    width: 100%;
-    height: 100%;
-    background-color: rgba(255,255,255,0.3);
-    left: 0;
-    top:0;
-    z-index:1;
-} 
+.geography {
+  background: url('ghana.png');
+  padding: 100px 20px 60px 20px;
+  position: relative;
+  color: rgb(0, 88, 165);
+  background-repeat: no-repeat;
+   
+}
+
+.p1{
+  padding:relative;
+  background-color: #f4e182;
+}
+
+.cards {
+  body {
+  margin: 0;
+}
+
+.card {
+  width: 100%;
+  max-width: 400px;
+  border: 2px solid #f26419;
+  height: 400px;
+  margin: auto;🇬🇭
+  background-color: #f6ae2d;
+  border-radius: 25px;
+}
+
+.cards {
+  background-color: red;
+  padding: 50px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+@media (min-width: 600px) {
+  .cards {
+    flex-direction:horizontal;
+    background-color: #fff;
+  }
+}
+}
+
+.intro p {
+  position: relative;
+  z-index: 2;
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 25px;
+  width: 75%;
+}
+
+.intro::before {
+  position: absolute;
+  content: '';
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.3);
+  left: 0;
+  top: 0;
+  z-index: 1;
+}
 
 .buttons {
-    background-color:red; /* Green */
-    border: none;
-    color: white;
-    padding: 16px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    transition-duration: 0.4s;
-    cursor: pointer;}
-
-    .img {
-        opacity: 1;
-        display: block;
-        width: 100%;
-        height: auto;
-        transition: .5s ease;
-        backface-visibility: hidden;
-      }
-      
-      .middle {
-        transition: .5s ease;
-        opacity: 0;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        -ms-transform: translate(-50%, -50%);
-        text-align: center;
-      }
-      
-      .container:hover .image {
-        opacity: 0.3;
-      }
-      
-      .container:hover .middle {
-        opacity: 1;
-      }
-      
-      .text {
-        background-color: #04AA6D;
-        color: white;
-        font-size: 16px;
-        padding: 16px 32px;
-      }
-     
-#left {
-    margin-right:100px;
+  background-color: red;
+  /* Green */
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
 }
 
-.img{
-    background: url('ghana.png');
-    padding: 100px 20px 60px 20px;
-    position: relative;
-}
 .img {
-    position: relative;
-    z-index: 2;
-    background-color: rgba(255,255,255,0.5);
-    padding: 25px;
-    width: 75%;  }
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.container:hover .image {
+  opacity: 0.3;
+}
+
+.container:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  background-color: #04AA6D;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+
+#left {
+  margin-right: 100px;
+}
+
+.center-img {
+  display:block;
+  margin:auto
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.geography{
+  position:relative;
+
+
+}
+  
+.geography h2{
+  color:rgb(121, 40, 40);
+  position:absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  border: 1px solid red;
+  
+}
+.bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+}
+
+
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+}
+
+
+.top-right {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+}
+
+
+.bottom-right {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+  
+ 
