@@ -35,6 +35,11 @@ h3 {
   padding-left: 65px;
 }
 
+.geography h2 {
+  padding: relative
+  font-family:arial black  
+}
+
 section {
   padding: 10px;
   max-width: 800px;
@@ -48,49 +53,52 @@ section {
   position: relative;
 }
 
-.geography {
-  background: url('ghana.png');
-  padding: 100px 20px 60px 20px;
-  position: relative;
-  color: rgb(0, 88, 165);
-  background-repeat: no-repeat;
-   
+.img{
+  justify-content:right;
 }
 
-.p1{
-  padding:relative;
+.geography {
+  margin: auto;
+  padding: 25px;
+  position: relative;
+  color: rgb(0, 0, 0);
+  background-repeat: no-repeat;
+
+}
+
+.p1 {
+  padding: relative;
   background-color: #f4e182;
 }
 
 .cards {
   body {
-  margin: 0;
-}
-
-.card {
-  width: 100%;
-  max-width: 400px;
-  border: 2px solid #f26419;
-  height: 400px;
-  margin: auto;🇬🇭
-  background-color: #f6ae2d;
-  border-radius: 25px;
-}
-
-.cards {
-  background-color: red;
-  padding: 50px 20px;
-  display: flex;
-  flex-direction: column;
-  gap: 40px;
-}
-
-@media (min-width: 600px) {
-  .cards {
-    flex-direction:horizontal;
-    background-color: #fff;
+    margin: 0;
   }
-}
+
+  .card {
+    width: 100%;
+    max-width: 400px;
+    border: 2px solid #f26419;
+    height: 400px;
+    margin: auto;
+    border-radius: 25px;
+  }
+
+  .cards {
+    background-color: red;
+    padding: 50px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  @media (min-width: 600px) {
+    .cards {
+      flex-direction: horizontal;
+      background-color: #fff;
+    }
+  }
 }
 
 .intro p {
@@ -167,8 +175,8 @@ section {
 }
 
 .center-img {
-  display:block;
-  margin:auto
+  display: block;
+  margin: auto
 }
 
 .container {
@@ -177,21 +185,21 @@ section {
   color: white;
 }
 
-.geography{
-  position:relative;
+.geography {
+  position: relative;
 
 
 }
-  
-.geography h2{
+
+/*.geography h2{
   color:rgb(121, 40, 40);
   position:absolute;
   top: 50%;
   left: 50%;
   transform: translateX(-50%) translateY(-50%);
-  border: 1px solid red;
-  
-}
+  border: 1px solid red;*/
+
+
 .bottom-left {
   position: absolute;
   bottom: 8px;
@@ -225,6 +233,3 @@ section {
   left: 50%;
   transform: translate(-50%, -50%);
 }
-
-  
- 
