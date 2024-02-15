@@ -36,8 +36,8 @@ h3 {
 }
 
 .geography h2 {
-  padding: relative
-  font-family:arial black  
+  padding: relative;
+  font-family: arial black;  
 }
 
 section {
@@ -74,15 +74,23 @@ section {
 .cards {
   body {
     margin: 0;
-  }
+  }}
 
   .card {
+    /* padding-top: 100px; */
     width: 100%;
     max-width: 400px;
     border: 2px solid #f26419;
-    height: 400px;
+    /* height: 400px; */
     margin: auto;
     border-radius: 25px;
+    padding: 20px;
+  }
+
+  .card img{
+    float:left;
+    margin-right: 10px;
+    margin-bottom: 10px;
   }
 
   .cards {
@@ -99,7 +107,7 @@ section {
       background-color: #fff;
     }
   }
-}
+
 
 .intro p {
   position: relative;
@@ -233,3 +241,6 @@ section {
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
+
+
