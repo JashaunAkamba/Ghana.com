@@ -104,7 +104,8 @@ section {
   @media (min-width: 600px) {
     .cards {
       flex-direction: horizontal;
-      background-color: #fff;
+      background-color: rgb(211, 211, 211);
+      
     }
   }
 
