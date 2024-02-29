@@ -54,4 +54,10 @@ ul {
     text-decoration: underline;
     display: inline-block;
   }
+
+  img{
+  margin: auto;
+  width: 100%;
+  max-width:100%;
+  }
   
